@@ -1,0 +1,57 @@
+Qid,Subject,Question,OptA,OptB,OptC,OptD,CAns
+2,Networking,The sharing of a medium and its link by two or more devices is called _______,Fully duplexing,Muliplexing,Both a and b,None of the above,Muliplexing
+3,Networking,Two devices are in network if,a process in one device is able to exchange information with a process in another device,a process is running on both devices,PIDs of the processes running of different devices are same,None of the above,a process in one device is able to exchange information with a process in another device
+4,Networking,Which one of the following computer network is built on the top of another network?,prior network,chief network,prime network,overlay network,overlay network
+5,Networking,The OSI model has ___ layers.,4,5,6,7,7
+6,Networking,TCP/IP model does not have ______ layer but OSI model have this layer.,session layer,presentation layer,application layer,both a and b,both a and b
+7,Networking,Which layer is responsible for process to process delivery?,network layer,transport layer,session layer,data link layer,transport layer
+8,Networking,The physical layer concerns with,bit by bit delivery,process to process delivery,application to application delivery,none of the above,bit by bit delivery
+9,Networking,A single channel is shared by multiple signals by,analog modulation,digital modulation,multiplexing,none of the above,multiplexing
+10,Networking,The data link layer takes the packets from _____ and encapsulates them into frames for transmission.,network layer,physical layer,transport layer,application layer,network layer
+11,Networking,Which one of the following is the multiple access protocol for channel access control?,CSMA/CD,CSMA/CA,Both a and b,None of the above,Both a and b
+12,Networking,The network layer concerns with,bits,packets,frames,None of the above,packets
+13,Networking,Which one of the following algorithm is not used for congestion control?,traffic aware control,admission control,load shedding,None of the above,None of the above
+14,DBMS,The ______ clause allows us to select only those rows in the result relation of the ____ clause that satisfy a specified predicate.,"where, from","from, select","selct, from",from where,a
+15,DBMS,Which type of command Delete is?,DML,DCL,DDL,None of the above,a
+16,DBMS,What does the g in Oracle 10g XE stands for?,Grid,Ground,Gravity,None of the above,a
+17,DBMS,The ________ clause is used to list the attributes desired in the result of a query,"where, from",select,from ,distinct,b
+18,DBMS,Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?,candidate key,sub key,super key,foreign key,c
+19,DBMS,The relation with the attribute which is the primary key is referenced in another relation. The relation which has the attribute as primary key is called,referential relation,referencing relation,referenced relation,None of the above,b
+20,DBMS,A relational database consists of a collection of,tables,fields,records,keys,a
+21,DBMS,ÿA ________ in a table represents a relationship among a set of values.,columns,rows,keys,None of the above,b
+22,DBMS,The term attribute refers to a ___________ of a table.,record,column,TUPLE,None of the above,b
+23,DBMS,The tuples of the relations can be of ________ order.,Any,Same,Sorted,Constant,a
+24,DBMS,The intersection operator is used to get the _____ tuples.,Different ,Common,All,Repeating,b
+25,DSA,What are Abstract Data Type?,ÿThey are a set of values and operations for manipulating those values,They are a scheme for storing values in computer memory,"Arrays, stacks, queues,lists, and trees are all examples of abstract data types",both a and c,d
+26,DSA,ÿData structures generally employ which of the following implementation strategies?,Contiguous Implementation,Linked  Implementation,All of the mentioned,None ob the above,c
+27,DSA,Which of the following are the heuristics for data structure diagram?,label record fields only once,"use ellipses to simplify large, repetitive structures","Draw linked structures so that, the pointers point down the page or from left to right",All of the mentioned,d
+28,DSA,Which of the following ways is a in-order traversal?,Root->left sub tree -> right sub tree,Root->right sub tree-> left sub tree,right sub tree-> left sub tree->Root,eft sub tree-> root->right sub tree,d
+29,DSA,What data structure is used for breadth first traversal of a graph?,queue,stack,list,None of the above,a
+30,DSA,Index of arrays in C programming langauge starts from,0,1,either 0 ir 1,undefined,a
+31,DSA,"In C programming, when we remove an item from bottom of the stack, then ?",The stack will fall down,Stack will rearrange items,It will convert to LIFO,This operation is not allowed,b
+32,DSA,The worst case complexity of binary search matches with ?,interpolation search,linear search,merge sort,none of the above,b
+33,DSA,push() and pop() functions are found in,queue,lists,stack,trees,c
+34,DSA,Which of the following is example of in-place algorithm?,Bubble sort,Merge Sort,Insertion Sort,All of the above,b
+35,DSA,"If there's no base criteria in a recursive program, the program will",not be executed,execute until all conditions match,execute infinitely,obtain progressive approach,c
+36,OS,Whenever a process needs I/O to or from a disk it issues a ______________.,system call to the CPU,system call to the operating system,a special procedure,All of these,b
+37,OS,"Random access in magnetic tapes is _________, compared to magnetic disks.",fast,very fast,slow,very slow,d
+38,OS,The number of processes completed per unit time is known as __________,Output,Throughput,Efficiency,Capacity,b
+39,OS,The state of a process is defined by,the final activity of the process,the activity just executed by the process,the activity to next be executed by the process,the current activity of the process,d
+40,OS,PCB is a,Process Type variable,Data Structure,a secondary storage location,a block in memory,b
+41,OS,The entry of all the PCBs of the current processes is inÿ,Progress Register,Program Counter,Process Table,Process Unit,c
+42,OS,The degree of multiprogramming is ,he number of processes executed per unit time,the number of processes in the ready queue,the number of processes in the I/O queue,the number of processes in memory,d
+43,OS,In indexed allocation :,each file must occupy a set of contiguous blocks on the disk,each file is a list of disk blocks,all the pointers to scattered blocks are placed together in one location,None of the above,c
+44,OS,ÿThe real disadvantage of a linear list of directory entries is the :,size of the linear list in memory,linear search to find a file,it is not reliable,All of these,b
+45,OS,"ÿTo solve the problem of external fragmentation, ________ needs to be done periodically.",compaction,check,formatting,replacing memory,a
+46,OS,"ÿIf too little space is allocated to a file,",the file will not work,"there will not be any space for the data, as the FCB takes it all",the file cannot be opened,the file cannot be extended,d
+47,PHP,PHP files have a default file extension of,.html,.php,.xml,.ph,c
+48,PHP,A PHP script should start with ___ and end with ___:,< php >,<? Php ?>,<! !>,<?php ?>,d
+49,PHP,Which version of PHP introduced Try/catch Exception?,PHP 4,PHP 5,PHP 5.3,PHP 6,b
+50,PHP,Which statement will output $x on the screen?,echo ?\$x?;,echo ?$$x?;,echo ?/$x?;,echo ?$x;?;,a
+51,PHP,If $a = 12 what will be returned when ($a == 12) ? 5 : 1 is executed?,12,1,Error,5,d
+52,PHP,Who is the father of PHP?,Rasmus Lerdorf,Willam Makepiece,Drek Kolkevi,List Barely,a
+53,PHP,Which of the following PHP functions can be used for generating unique id?s?,uniqueid(),id(),md5(),mdid(),a
+54,PHP,Which of the following PHP functions can be used to get the current memory usage?,get_usage(),get_peak_usage(),get_memory_usage(),get_memory_peak_usage(),c
+55,PHP,Which method enables you to calculate whether daylight saving time is in force at a specific date and time?,getOffset(),getTransitions(),ISODate(),savingTime(),b
+56,PHP,How many constants does the DateTime class have?,8,9,10,11,d
+57,PHP,Which two predefined variables are used to retrieve information from forms?,$GET & $SET,$_GET & $_SET,$__GET & $__SET,GET & SET,b
